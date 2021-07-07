@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-function BottomNavbar() {
+export default function BottomNavbar() {
   const classes = useStyles();
   const [value, setValue] = useState(0);
   return (
@@ -33,5 +33,3 @@ function BottomNavbar() {
     </BottomNavigation>
   );
 }
-
-export default BottomNavbar;
