@@ -1,7 +1,11 @@
 import React from 'react';
 
-const App = () => (
-  <div />
-);
+import BottomNavbar from './components/BottomNavbar';
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <BottomNavbar />
+    </div>
+  );
+}
